@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+    .img {
+        margin: 20px 0;
+        transform: rotate(0deg) !important;
+        border: none !important;
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .img {
+        width: 95% !important;
+    }
+}

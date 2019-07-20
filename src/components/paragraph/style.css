@@ -1,0 +1,20 @@
+.p-content {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+@media (max-width: 900px) {
+    
+    .p-content {
+        width: 95% !important;
+        text-indent: 0px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .p-content {
+        font-size: 18px !important;
+    }
+}
+

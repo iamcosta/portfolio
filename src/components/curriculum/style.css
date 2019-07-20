@@ -1,0 +1,92 @@
+.cv-general {
+    background-color: #9ea9f0;
+    color: #f9f6f2;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.cv-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cv-profile-pic {
+    width: 200px;
+    border: 5px solid #f9f6f2;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+
+.cv-lang-abilities-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cv-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+}
+
+.cv-card span {
+    margin-top: 20px;
+}
+
+.cv-tech-icon {
+    margin-top: 15px;
+    width: 50px;
+}
+
+.cv-long-texts {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+Paragraph {
+    color: aquamarine;
+    
+}
+
+@media (max-width: 900px) {
+
+    .cv-container {
+        max-width: 100%;
+    }
+
+    .cv-content {
+        width: 95%;
+    }
+
+    .cv-lang-abilities-container {
+        margin-top: 0px;
+        max-width: 100%;
+    }
+
+    .cv-card {
+        margin-top: 20px;
+    }
+
+    .cv-long-texts {
+        width: 95%;
+    }
+}
