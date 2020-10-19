@@ -1,4 +1,5 @@
 import React from 'react';
+import { differenceInYears } from 'date-fns';
 
 import data from "../../api/info.json";
 
@@ -37,7 +38,7 @@ function Curriculum() {
                         title={'Iam Barroso da Costa'}
                         style={{fontWeight: '500', textTransform: 'none'}}
                     />
-                    <Paragraph text={'Brasileiro, Solteiro, 22 anos'}/>
+                    <Paragraph text={`Brasileiro, Solteiro, ${differenceInYears(new Date(), new Date('1996-08-11'))} anos`}/>
                     <div className='cv-lang-abilities-container'>
                         <div className='cv-card'>
                             <SectionSubtitle 
