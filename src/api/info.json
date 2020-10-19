@@ -36,10 +36,8 @@
         "email": "iambarrosodacosta@live.com",
         "tel": "+55 95 98400-2013",
         "social" : {
-            "fb": "https://www.facebook.com/yannzyto",
-            "ig": "https://www.instagram.com/yannzyto/",
-            "tt": "https://twitter.com/yannzyto",
-            "in": "https://www.linkedin.com/in/iam-barroso/"
+            "in": "https://www.linkedin.com/in/iam-barroso/",
+            "git": "https://github.com/iamcosta"
         }
     }    
 }
