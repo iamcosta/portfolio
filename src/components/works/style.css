@@ -32,6 +32,7 @@
 
 .works-tech-icon {
     max-width: 20%;
+    animation: breath 2s infinite;
 }
 
 .works-contact-link {
@@ -41,6 +42,35 @@
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
+}
+
+.works-tech-icon-delay1 {
+    animation-delay: 0s;
+}
+
+.works-tech-icon-delay2 {
+    animation-delay: 0.4s;
+}
+
+.works-tech-icon-delay3 {
+    animation-delay: 0.8s;
+}
+
+.works-tech-icon-delay4 {
+    animation-delay: 1.2s;
+}
+
+.works-tech-icon-delay5 {
+    animation-delay: 1.6s;
+}
+
+@keyframes breath {
+    12% {
+        transform: translateY(-15px);
+    }
+    25% {
+        transform: translateY(0px);
+    }
 }
 
 @media (min-width: 901px) {

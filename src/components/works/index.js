@@ -26,11 +26,11 @@ function Works() {
                     <Paragraph text={info.text1}/>
                     <Paragraph text={info.text2}/>
                     <div className='works-tech-icons-container'>
-                        <img className='works-tech-icon' src={html5Icon} title='HTML5' alt='HTML5 icon'/>
-                        <img className='works-tech-icon' src={css3Icon} title='CSS3' alt='CSS3 icon'/>
-                        <img className='works-tech-icon' src={jsIcon} title='Javascript' alt='JavaScript icon'/>
-                        <img className='works-tech-icon' src={reactIcon} title='ReactJs' alt='ReactJs icon'/>
-                        <img className='works-tech-icon' src={nodeIcon} title='NodeJs' alt='NodeJs icon'/>
+                        <img className='works-tech-icon works-tech-icon-delay1' src={html5Icon} title='HTML5' alt='HTML5 icon'/>
+                        <img className='works-tech-icon works-tech-icon-delay2' src={css3Icon} title='CSS3' alt='CSS3 icon'/>
+                        <img className='works-tech-icon works-tech-icon-delay3' src={jsIcon} title='Javascript' alt='JavaScript icon'/>
+                        <img className='works-tech-icon works-tech-icon-delay4' src={reactIcon} title='ReactJs' alt='ReactJs icon'/>
+                        <img className='works-tech-icon works-tech-icon-delay5' src={nodeIcon} title='NodeJs' alt='NodeJs icon'/>
                     </div>
                     <a className='works-contact-link' href='#contact'>Contato</a>
                 </div>

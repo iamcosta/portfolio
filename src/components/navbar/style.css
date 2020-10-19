@@ -69,6 +69,8 @@
 
     .nav-drop {
         display: block;
+        overflow: hidden;
+        animation: slide-down-menu 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
 
     .nav-drop .nav-menu-item, .nav-drop .nav-drop-button {
@@ -86,5 +88,14 @@
 
     .nav-menu-link {
         cursor: pointer;
+    }
+
+    @keyframes slide-down-menu {
+        0% {
+            height: 50px;
+        }
+        100% {
+            height: 310px;
+        }
     }
 }
