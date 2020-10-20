@@ -5,7 +5,7 @@ import './style.css'
 import Navbar from '../../components/navbar';
 import Header from '../../components/header';
 import AboutMe from '../../components/about-me';
-import Works from '../../components/works';
+import Techs from '../../components/techs';
 import Curriculum from '../../components/curriculum';
 import Contact from '../../components/contact';
 import Footer from '../../components/footer';
@@ -20,8 +20,8 @@ function Main () {
             <Header />
             <SectionIndex id={'about-me'}/>
             <AboutMe />
-            <SectionIndex id={'works'}/>
-            <Works />
+            <SectionIndex id={'techs'}/>
+            <Techs />
             <SectionIndex id={'curriculum'}/>
             <Curriculum />
             <SectionIndex id={'contact'}/>

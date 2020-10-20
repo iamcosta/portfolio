@@ -31,7 +31,7 @@ function Navbar() {
                         <a className='nav-menu-link' href='#about-me' onClick={drop}>sobre mim</a>
                     </li>
                     <li className='nav-menu-item'>
-                        <a className='nav-menu-link' href='#works' onClick={drop}>trabalhos</a>
+                        <a className='nav-menu-link' href='#techs' onClick={drop}>tecnologias</a>
                     </li>
                     <li className='nav-menu-item'>
                         <a className='nav-menu-link' href='#curriculum' onClick={drop}>currículo</a>

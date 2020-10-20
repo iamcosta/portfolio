@@ -1,11 +1,11 @@
-.works-general {
+.techs-general {
     background-color: #fff;
     padding: 5% 0;
     display: flex;
     justify-content: center;
 }
 
-.works-container {
+.techs-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,7 @@
     width: 900px;
 }
 
-.works-content {
+.techs-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,19 +23,19 @@
     text-align: center;
 }
 
-.works-tech-icons-container {
+.techs-tech-icons-container {
     display: flex;
     justify-content: center;
     max-width: 360px;
     margin: 40px 0;
 }
 
-.works-tech-icon {
+.techs-tech-icon {
     max-width: 20%;
     animation: breath 2s infinite;
 }
 
-.works-contact-link {
+.techs-contact-link {
     color: #553c8b;
     border: .5px solid #553c8b;
     font-weight: 500px;
@@ -44,23 +44,23 @@
     text-decoration: none;
 }
 
-.works-tech-icon-delay1 {
+.techs-tech-icon-delay1 {
     animation-delay: 0s;
 }
 
-.works-tech-icon-delay2 {
+.techs-tech-icon-delay2 {
     animation-delay: 0.4s;
 }
 
-.works-tech-icon-delay3 {
+.techs-tech-icon-delay3 {
     animation-delay: 0.8s;
 }
 
-.works-tech-icon-delay4 {
+.techs-tech-icon-delay4 {
     animation-delay: 1.2s;
 }
 
-.works-tech-icon-delay5 {
+.techs-tech-icon-delay5 {
     animation-delay: 1.6s;
 }
 
@@ -74,22 +74,22 @@
 }
 
 @media (min-width: 901px) {
-    .works-contact-link:hover {
+    .techs-contact-link:hover {
         color: #f9f6f2;
         background-color: #553c8b;
     }
 }
 
 @media (max-width: 900px) {
-    .works-container {
+    .techs-container {
         width: 100% !important;
     }
 
-    .works-content {
+    .techs-content {
         margin-top:  10px !important;
     }
 
-    .works-contact-link:active {
+    .techs-contact-link:active {
         color: #f9f6f2;
         background-color: #553c8b !important;
     }
@@ -97,7 +97,7 @@
 }
 
 @media (max-width: 480px) {
-    .works-tech-icons-container {
+    .techs-tech-icons-container {
         width: 90% !important;
     }
 }
