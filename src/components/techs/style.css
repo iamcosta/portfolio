@@ -32,13 +32,13 @@
 
 .techs-tech-icon {
     max-width: 20%;
-    animation: breath 2s infinite;
+    animation: breath 2.4s infinite;
 }
 
 .techs-contact-link {
     color: #553c8b;
     border: .5px solid #553c8b;
-    font-weight: 500px;
+    font-weight: 500;
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
@@ -62,6 +62,10 @@
 
 .techs-tech-icon-delay5 {
     animation-delay: 1.6s;
+}
+
+.techs-tech-icon-delay6 {
+    animation-delay: 2s;
 }
 
 @keyframes breath {
@@ -99,5 +103,9 @@
 @media (max-width: 480px) {
     .techs-tech-icons-container {
         width: 90% !important;
+    }
+
+    .techs-tech-icon {
+        max-width: 18% !important;
     }
 }

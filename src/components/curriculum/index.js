@@ -54,14 +54,14 @@ function Curriculum() {
                                 subtitle={'Tecnologias:'}
                                 style={{marginBottom: '0px'}}
                             />
-                            <img className='cv-tech-icon' src={webIcon} alt='ícone de web'/>
+                            <img className='cv-tech-icon' src={webIcon} alt='ícone de web' title='web side'/>
                             <Paragraph text={cv.techs.web}/>
-                            <img className='cv-tech-icon' src={mobileIcon} alt='ícone de mobile'/>
+                            <img className='cv-tech-icon' src={mobileIcon} alt='ícone de mobile' title='mobile side'/>
                             <Paragraph text={cv.techs.mobile}/>                            
-                            <img className='cv-tech-icon' src={dbIcon} alt='ícone de banco de dados'/>
-                            <Paragraph text={cv.techs.db}/>
+                            <img className='cv-tech-icon' src={dbIcon} alt='ícone de banco de dados / server-side' title='server side'/>
+                            <Paragraph text={cv.techs.server}/>
         
-                            <span>*em estudo</span>
+                            {/* <span>*em estudo</span> */}
                         </div>
                     </div>
                     <div className='cv-long-texts'>

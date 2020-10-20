@@ -29,18 +29,18 @@ function Contact() {
                         </div>
                         <div className='contact-tel'>
                             <div className='contact-multiapp-icons'>
-                                <img className='contact-tel-icon' src={telIcon} alt='Ícone do Telegram'/>
-                                <img className='contact-wpp-icon' src={wppIcon} alt='Ícone do Whatsapp'/>    
+                                <img className='contact-tel-icon' src={telIcon} alt='Ícone do Telegram' title='Telegram'/>
+                                <img className='contact-wpp-icon' src={wppIcon} alt='Ícone do Whatsapp'title='Whatsapp'/>    
                             </div>
                             <Paragraph text={tel}/>
                         </div>
                     </div>
                     <div className='contact-social'>
                         <a href={social.git} target='blank'>
-                            <img className='contact-social-icon' src={githubIcon} alt='Ícone do Github'/>
+                            <img className='contact-social-icon' src={githubIcon} alt='Ícone do Github' title='Meu LinkedIn'/>
                         </a>
                         <a href={social.in} target='blank'>
-                            <img className='contact-social-icon' src={linkedinIcon} alt='Ícone do LinkedIn'/>
+                            <img className='contact-social-icon' src={linkedinIcon} alt='Ícone do LinkedIn' title='Meu Github'/>
                         </a>
                     </div>
                 </div>

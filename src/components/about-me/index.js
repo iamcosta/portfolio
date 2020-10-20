@@ -19,15 +19,16 @@ import codeImg from '../../img/code.png';
 function AboutMe () {
 
     const imgStyle = {
-        border: '5px solid #9ea9f0',
+        border: '2px solid #9ea9f0',
         backgroundColor: '#9ea9f0',
         width: '320px',
+        boxShadow: '0px 4px 10px -2px rgba(0,0,0,0.5)',
     }
 
     const pConfig = {
         textAlign: 'justify',
         textIndent: '50px',
-        color: '#553c8b',
+        color: 'rgba(20, 20, 20, 0.9)',
         width: '440px'
     }
 

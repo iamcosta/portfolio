@@ -30,16 +30,20 @@
     text-transform: capitalize;
     text-align: center;
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 300;
     color: #fff;
-    transition: .5s text;
 }
 
 @media (min-width: 901px) {
 
-    .nav-menu-link:hover {
-        text-decoration: underline;
+    .nav-menu-link {
+        border-bottom: 2px solid transparent;
+        transition: .8s border;
     }
+
+    .nav-menu-link:hover {
+        border-bottom: 2px solid #fff;
+    } 
 
     .nav-drop-button {
         display: none;
