@@ -1,18 +1,18 @@
 import React from 'react';
 
-import SectionTitle from '../section-title';
+import SectionTitle from '../../../../components/section-title';
 // import Paragraph from '../paragraph';
 
-import html5Icon from '../../img/icons/html.png';
-import css3Icon from '../../img/icons/css.png';
-import jsIcon from '../../img/icons/js.gif';
-import tsIcon from '../../img/icons/ts.png';
-import reactIcon from '../../img/icons/react.png';
-import nodeIcon from '../../img/icons/node.png'
+import html5Icon from '../../../../img/icons/html.png';
+import css3Icon from '../../../../img/icons/css.png';
+import jsIcon from '../../../../img/icons/js.gif';
+import tsIcon from '../../../../img/icons/ts.png';
+import reactIcon from '../../../../img/icons/react.png';
+import nodeIcon from '../../../../img/icons/node.png'
 
 import './style.css';
 
-function Works() {
+function Techs() {
 
     // const info = {
     //     text1 : 'Ops! Parece que ainda não há nada aqui... :c',
@@ -22,7 +22,9 @@ function Works() {
     return (
         <div className='techs-general'>
             <div className='techs-container'>
-                <SectionTitle title={'Tecnologias'}/>
+                <SectionTitle>
+                    {'Tecnologias'}
+                </SectionTitle>
                 <div className='techs-content'>
                     {/* <Paragraph text={info.text1}/>
                     <Paragraph text={info.text2}/> */}
@@ -41,4 +43,4 @@ function Works() {
     )
 }
 
-export default Works;
+export default Techs;

@@ -1,31 +1,32 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
-import data from '../../api/info.json';
+// API
+import data from '../../../../api/info.json';
 
 // Style
 import './style.css'
 
 // Components
-import SectionTitle from '../section-title';
-import Paragraph from '../paragraph';
-import ImageArticle from '../image-article';
+import SectionTitle from '../../../../components/section-title';
+import Paragraph from '../../../../components/paragraph';
+import ImageArticle from '../../../../components/image-article';
 
 // Images
-import ifrrImg from '../../img/ifrr-fachada.png';
-import codingImg from '../../img/coding.jpg';
-import codeImg from '../../img/code.png';
+import ifrrImg from '../../../../img/ifrr-fachada.png';
+import codingImg from '../../../../img/coding.jpg';
+import codeImg from '../../../../img/code.png';
 
 
 function AboutMe () {
 
-    const imgStyle = {
+    const imgStyle: CSSProperties = {
         border: '2px solid #9ea9f0',
         backgroundColor: '#9ea9f0',
         width: '320px',
         boxShadow: '0px 4px 10px -2px rgba(0,0,0,0.5)',
     }
 
-    const pConfig = {
+    const pConfig: CSSProperties = {
         textAlign: 'justify',
         textIndent: '50px',
         color: 'rgba(20, 20, 20, 0.9)',
@@ -37,13 +38,16 @@ function AboutMe () {
     return (
         <div className='about-general'>
             <div className='about-container'>
-                <SectionTitle title={'sobre mim'} style={{color: '#553c8b'}}/>
+                <SectionTitle style={{color: '#553c8b'}}>
+                    {'sobre mim'}
+                </SectionTitle>
                 <div className='about-content'>
                     <div className='about-article'>
-                        <Paragraph 
-                            text={aboutMe[0]}
+                        <Paragraph
                             style={pConfig}
-                        />
+                        >
+                            {aboutMe[0]}
+                        </Paragraph>
                         <ImageArticle
                             style={{...imgStyle}}
                             src={ifrrImg}
@@ -56,16 +60,18 @@ function AboutMe () {
                             src={codingImg}
                             alt={'Trabalhando em projeto'}
                         />
-                        <Paragraph 
-                            text={aboutMe[1]}
+                        <Paragraph
                             style={pConfig}
-                        />
+                        >
+                            {aboutMe[1]}
+                        </Paragraph>
                     </div>
                     <div className='about-article'>
-                        <Paragraph 
-                            text={aboutMe[2]}
+                    <Paragraph
                             style={pConfig}
-                        />
+                        >
+                            {aboutMe[2]}
+                        </Paragraph>
                         <ImageArticle 
                             style={{...imgStyle}}
                             src={codeImg}

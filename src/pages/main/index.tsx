@@ -2,15 +2,17 @@ import React from 'react';
 
 import './style.css'
 
-import Navbar from '../../components/navbar';
-import Header from '../../components/header';
-import AboutMe from '../../components/about-me';
-import Techs from '../../components/techs';
-import Curriculum from '../../components/curriculum';
-import Contact from '../../components/contact';
-import Footer from '../../components/footer';
+// Sections
+import Header from './sections/header';
+import AboutMe from './sections/about-me';
+import Techs from './sections/techs';
+import Curriculum from './sections/curriculum';
+import Contact from './sections/contact';
 
-import SectionIndex from '../../components/section-index';
+// Components
+import SectionIndex from '../../components/section-index/index';
+import Footer from '../../components/footer';
+import Navbar from '../../components/navbar';
 
 function Main () {
     return (
