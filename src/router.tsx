@@ -6,7 +6,7 @@ import Main from './pages/main'
 const Router: React.FC = () => (
     <BrowserRouter>
         <Switch>
-            <Route React path='/' component={Main}/>
+            <Route path='/' component={Main}/>
         </Switch>
     </BrowserRouter>
 )
