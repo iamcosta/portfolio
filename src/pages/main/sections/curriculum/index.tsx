@@ -44,7 +44,7 @@ function Curriculum() {
                     </Paragraph>
                     <div className='cv-lang-abilities-container'>
                         <div className='cv-card'>
-                            <SectionSubtitle style={{marginBottom: '15px'}}>
+                            <SectionSubtitle style={{margin: '20px 0'}}>
                                 {'Idomas:'}
                             </SectionSubtitle>
                             {cv.langs.map(lang => {
@@ -52,14 +52,14 @@ function Curriculum() {
                             })}
                         </div>
                         <div className='cv-card'>
-                            <SectionSubtitle style={{marginBottom: '15px'}}>
+                            <SectionSubtitle style={{margin: '20px 0'}}>
                                 {'Tecnologias:'}
                             </SectionSubtitle>
-                            <BsWindow color='#fff' size={32}/>
+                            <BsWindow color='#fff' size={30}/>
                             <Paragraph>{cv.techs.web}</Paragraph>
-                            <BsPhone color='#fff' size={32}/>
+                            <BsPhone color='#fff' size={30}/>
                             <Paragraph>{cv.techs.mobile}</Paragraph>                            
-                            <BsServer color='#fff' size={32}/>
+                            <BsServer color='#fff' size={30}/>
                             <Paragraph>{cv.techs.server}</Paragraph>
         
                             {/* <span>*em estudo</span> */}
