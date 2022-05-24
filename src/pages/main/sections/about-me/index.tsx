@@ -1,7 +1,7 @@
 import React, { CSSProperties } from 'react';
 
 // API
-import data from '../../../../api/info.json';
+import data from '../../../../service/api/info.json';
 
 // Style
 import './style.css'
