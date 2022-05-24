@@ -7,7 +7,7 @@ function Header() {
         <div className='header-general'>
             <div className='header-container'>
                 <h1 className='header-title'>Iam Barroso</h1>
-                <h2 className='header-subtitle'>Analísta de Sistemas</h2>
+                <h2 className='header-subtitle'>Analista de Sistemas</h2>
             </div>
         </div>
     )
