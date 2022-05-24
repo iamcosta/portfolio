@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 // API
-import data from '../../../../api/info.json';
+import data from '../../../../service/api/info.json';
 
 // Components
 import Paragraph from '../../../../components/paragraph';
@@ -42,10 +42,10 @@ function Contact() {
                     </div>
                     <div className='contact-social'>
                         <a href={social.git} target='blank'>
-                            <img className='contact-social-icon' src={githubIcon} alt='Ícone do Github' title='Meu LinkedIn'/>
+                            <img className='contact-social-icon' src={githubIcon} alt='Ícone do Github' title='Meu Github'/>
                         </a>
                         <a href={social.in} target='blank'>
-                            <img className='contact-social-icon' src={linkedinIcon} alt='Ícone do LinkedIn' title='Meu Github'/>
+                            <img className='contact-social-icon' src={linkedinIcon} alt='Ícone do LinkedIn' title='Meu LinkedIn'/>
                         </a>
                     </div>
                 </div>
