@@ -9,5 +9,10 @@ html {
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #f4f6f6;
+    background-image: url('./img/coding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 10%;
+    background-attachment: fixed;
 }
