@@ -12,11 +12,6 @@ import Paragraph from '../../../../components/paragraph';
 import SectionTitle from '../../../../components/section-title';
 
 // Resources
-import olIcon from '../../../../img/icons/ol-icon.png';
-import telIcon from '../../../../img/icons/telegram-icon.png';
-import wppIcon from '../../../../img/icons/wpp-icon.png';
-import linkedinIcon from '../../../../img/icons/linkedin-icon.png';
-import githubIcon from '../../../../img/icons/github-icon.png';
 
 function Contact() {
 
