@@ -12,9 +12,7 @@ import SectionTitle from '../../../../components/section-title';
 
 // Resources
 import profilePic from '../../../../img/iam-profile.jpg';
-import webIcon from '../../../../img/icons/web-icon.png';
-import mobileIcon from '../../../../img/icons/mobile-icon.png'
-import dbIcon from '../../../../img/icons/db-icon.png';
+import { BsPhone, BsServer, BsWindow } from 'react-icons/bs';
 
 function Curriculum() {
 
@@ -54,14 +52,14 @@ function Curriculum() {
                             })}
                         </div>
                         <div className='cv-card'>
-                            <SectionSubtitle style={{marginBottom: '0px'}}>
+                            <SectionSubtitle style={{marginBottom: '15px'}}>
                                 {'Tecnologias:'}
                             </SectionSubtitle>
-                            <img className='cv-tech-icon' src={webIcon} alt='ícone de web' title='web side'/>
+                            <BsWindow color='#fff' size={32}/>
                             <Paragraph>{cv.techs.web}</Paragraph>
-                            <img className='cv-tech-icon' src={mobileIcon} alt='ícone de mobile' title='mobile side'/>
+                            <BsPhone color='#fff' size={32}/>
                             <Paragraph>{cv.techs.mobile}</Paragraph>                            
-                            <img className='cv-tech-icon' src={dbIcon} alt='ícone de banco de dados / server-side' title='server side'/>
+                            <BsServer color='#fff' size={32}/>
                             <Paragraph>{cv.techs.server}</Paragraph>
         
                             {/* <span>*em estudo</span> */}

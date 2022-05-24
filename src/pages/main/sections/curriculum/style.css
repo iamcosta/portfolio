@@ -43,15 +43,11 @@
     align-items: center;
     width: 400px;
     text-align: center;
+    gap: 10px;
 }
 
 .cv-card span {
     margin-top: 20px;
-}
-
-.cv-tech-icon {
-    margin-top: 15px;
-    width: 50px;
 }
 
 .cv-long-texts {
