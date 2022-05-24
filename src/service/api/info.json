@@ -11,7 +11,7 @@
             "Espanhol (Leitura)"
         ],
         "techs": {
-            "web": "HTML, CSS, JavaScript, ReactJS",
+            "web": "HTML, CSS, JavaScript, ReactJS, Typescript",
             "mobile": "React Native",
             "server": "MySQL, Postgres, Firebase, NodeJs"
         },
