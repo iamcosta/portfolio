@@ -3,7 +3,7 @@ import { differenceInYears } from 'date-fns';
 import './style.css';
 
 // API
-import data from '../../../../api/info.json';
+import data from '../../../../service/api/info.json';
 
 // Components
 import Paragraph from '../../../../components/paragraph';
