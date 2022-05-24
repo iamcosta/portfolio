@@ -1,4 +1,3 @@
-import { AxiosResponse } from "axios";
 import githubApi from "../api/github";
 
 export async function getUser(userName: string) {
