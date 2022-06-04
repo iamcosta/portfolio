@@ -139,10 +139,12 @@
     transition: box-shadow 0.2s ease;
     border: none;
     border: 1px solid #252a31;
+    transition: all 0.5s ease;
 }
 
 .git-card:hover {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-color: #c9d1d9AA;
 }
 
 .git-card .git-card-header {
