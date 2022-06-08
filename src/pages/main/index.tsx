@@ -12,13 +12,11 @@ import Contact from './sections/contact';
 // Components
 import SectionIndex from '../../components/section-index/index';
 import Footer from '../../components/footer';
-import Navbar from '../../components/navbar';
 
 function Main () {
     return (
         <>
-        <Navbar />
-        <div className='content'>
+        <div>
             <Header />
             <SectionIndex id={'about-me'}/>
             <AboutMe />

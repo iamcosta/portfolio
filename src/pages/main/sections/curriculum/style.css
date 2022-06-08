@@ -22,13 +22,6 @@
     text-align: center;
 }
 
-.cv-profile-pic {
-    width: 200px;
-    border: 4px solid #f9f6f2;
-    border-radius: 200px;
-    margin-bottom: 20px;
-}
-
 .cv-lang-abilities-container {
     margin-top: 30px;
     width: 100%;

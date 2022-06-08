@@ -11,7 +11,6 @@ import SectionSubtitle from '../../../../components/section-subtitle';
 import SectionTitle from '../../../../components/section-title';
 
 // Resources
-import profilePic from '../../../../img/iam-profile.jpg';
 import { BsPhone, BsServer, BsWindow } from 'react-icons/bs';
 
 function Curriculum() {
@@ -30,13 +29,7 @@ function Curriculum() {
                     {'Currículo'}
                 </SectionTitle>
                 <div className='cv-content'>
-                    <img 
-                        className='cv-profile-pic' 
-                        src={profilePic} 
-                        title='Oi! Eu sou Iam!' 
-                        alt='imagem de perfil' 
-                    />
-                    <SectionTitle style={{fontWeight: 'lighter', textTransform: 'none'}}>
+                    <SectionTitle style={{fontWeight: '500', textTransform: 'none'}}>
                         {'Iam Barroso da Costa'}
                     </SectionTitle>
                     <Paragraph>

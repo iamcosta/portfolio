@@ -30,7 +30,8 @@ function AboutMe () {
         textAlign: 'justify',
         textIndent: '50px',
         color: 'rgba(20, 20, 20, 0.9)',
-        width: '440px'
+        width: '440px',
+        fontWeight: '300'
     }
 
     const { aboutMe } = data;
