@@ -98,11 +98,12 @@
     border: none;
     border: 1px solid #252a31;
     transition: all 0.5s ease;
+    border-color: #c9d1d9AA;
 }
 
 .git-card:hover {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-    border-color: #c9d1d9AA;
+    border-color: #c9d1d9;
 }
 
 .git-card .git-card-header {
@@ -172,6 +173,7 @@
     }
 
     .git-card {
-        width: 90%;
+        width: 80%;
+        margin: auto;
     }
 }
