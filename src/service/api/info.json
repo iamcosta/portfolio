@@ -11,9 +11,9 @@
             "Espanhol (Leitura)"
         ],
         "techs": {
-            "web": "HTML, CSS, JavaScript, ReactJS, Typescript",
+            "web": "HTML, CSS, JavaScript, ReactJS, Typescript, Java, JSF",
             "mobile": "React Native",
-            "server": "MySQL, Postgres, Firebase, NodeJs"
+            "server": "MySQL, Postgres, Firebase"
         },
         "objective": "Crescer como desenvolvedor profissional, sempre contribuindo com o sucesso do ambiente no qual eu estiver inserido.",
         "titles": [
