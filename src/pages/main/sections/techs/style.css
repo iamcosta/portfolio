@@ -73,48 +73,6 @@
     animation-delay: 2s;
 }
 
-@keyframes breath {
-    12% {
-        transform: translateY(-15px);
-    }
-    25% {
-        transform: translateY(0px);
-    }
-}
-
-@media (min-width: 901px) {
-    .techs-contact-link:hover {
-        color: #f9f6f2;
-        background-color: #553c8b;
-    }
-}
-
-@media (max-width: 900px) {
-    .techs-container {
-        width: 100% !important;
-    }
-
-    .techs-content {
-        margin-top:  10px !important;
-    }
-
-    .techs-contact-link:active {
-        color: #f9f6f2;
-        background-color: #553c8b !important;
-    }
-    
-}
-
-@media (max-width: 480px) {
-    .techs-tech-icons-container {
-        width: 90% !important;
-    }
-
-    .techs-tech-icon {
-        max-width: 18% !important;
-    }
-}
-
 .card-link {
     text-decoration: none;
     color: #FFF;
@@ -170,4 +128,50 @@
 
 .git-card span {
     color: #8b949e;
+}
+
+@keyframes breath {
+    12% {
+        transform: translateY(-15px);
+    }
+    25% {
+        transform: translateY(0px);
+    }
+}
+
+@media (min-width: 901px) {
+    .techs-contact-link:hover {
+        color: #f9f6f2;
+        background-color: #553c8b;
+    }
+}
+
+@media (max-width: 900px) {
+    .techs-container {
+        width: 100% !important;
+    }
+
+    .techs-content {
+        margin-top:  10px !important;
+    }
+
+    .techs-contact-link:active {
+        color: #f9f6f2;
+        background-color: #553c8b !important;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .techs-tech-icons-container {
+        width: 90% !important;
+    }
+
+    .techs-tech-icon {
+        max-width: 18% !important;
+    }
+
+    .git-card {
+        width: 90%;
+    }
 }
