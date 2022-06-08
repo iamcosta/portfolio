@@ -27,7 +27,7 @@ function Techs() {
 
     useEffect(() => {
         getUser("iamcosta").then(user => setGitUser(user));
-    })
+    }, []) //eslint-disable-line react-hooks/exhaustive-deps
 
     // const info = {
     //     text1 : 'Ops! Parece que ainda não há nada aqui... :c',
