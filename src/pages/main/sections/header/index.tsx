@@ -12,10 +12,10 @@ function Header() {
                 <div className='header-header'>
                     <a className='button-plain' href='#contact'>Contatos</a>
                     <div className='header-contact-icon-link'>
-                        <a href='https://github.com/iamcosta' target={"_blank"}>
+                        <a href='https://github.com/iamcosta' target={"_blank"} rel="noopener noreferrer" >
                             <BsGithub color='#fff' size={20} />
                         </a>
-                        <a href='https://wa.me/5595984002013' target={"_blank"}>
+                        <a href='https://wa.me/5595984002013' target={"_blank"} rel="noopener noreferrer">
                             <BsWhatsapp color='#fff' size={20} />
                         </a>
                     </div>
